@@ -30,5 +30,5 @@ export const initializeServer = async () => {
     attachFieldsToBody: 'keyValues',
   });
 
-  return server
-}
+  return server;
+};
