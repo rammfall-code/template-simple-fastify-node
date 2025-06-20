@@ -1,4 +1,4 @@
-# template-simple-fastify-node-ts
+# template-simple-fastify-node
 
 ## Access to mongo db
 

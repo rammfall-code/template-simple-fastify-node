@@ -1,5 +1,4 @@
 import fastify from 'fastify';
-import { TypeBoxTypeProvider } from '@fastify/type-provider-typebox';
 import fastifyCors from '@fastify/cors';
 import fastifyCookie from '@fastify/cookie';
 import fastifySwagger from '@fastify/swagger';
@@ -17,7 +16,7 @@ const server = fastify({
       },
     },
   },
-}).withTypeProvider<TypeBoxTypeProvider>();
+}).withTypeProvider();
 
 await server.register(fastifyCors);
 await server.register(fastifyCookie);
